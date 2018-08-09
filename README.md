@@ -12,4 +12,4 @@
 4. cp ${Your .proto path location} proto/ 
    to copy the proto file inside proto folder
 5. npm run proto
-6. inside js-proto-generator/src/proto you'll find the javascript generated files
+6. inside gprc-proto-js-generator/src/proto you'll find the javascript generated files
