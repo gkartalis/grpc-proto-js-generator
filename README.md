@@ -1,8 +1,8 @@
 # gprc-proto-js-generator
 
-> This repo generates the Javascript code from a .proto file
+> This repo generates the Javascript code from a .proto file.
 > It consists of a previous version of **ts-protoc-gen** npm package that supported JS code generation from a .proto file.
-> In the latest version of this package only TypeScript code generation is available.
+> In the latest version of this package only TypeScript code generation is available. 
 
 ## Instructions to auto - generate JS code from .proto file
 
