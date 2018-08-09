@@ -1,13 +1,16 @@
 {
-  "name": "js-proto-generator",
+  "name": "grpc-proto-js-generator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "proto": "protoc --plugin=protoc-gen-ts=./node_modules/.bin/protoc-gen-ts --js_out=import_style=commonjs,binary:./src --js_service_out=./src proto/*.proto"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gkartalis/grpc-proto-js-generator"
+  },
+  "author": "gkartalis",
   "license": "ISC",
   "dependencies": {
     "ts-protoc-gen": "^0.4.0",
