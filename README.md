@@ -8,7 +8,8 @@
 
 1. git clone git@github.com:gkartalis/grpc-proto-js-generator.git
 2. cd grpc-proto-js-generator && npm i
-3. cp ${Your .proto path location} proto/ 
+3. mkdir proto && mkdir src/proto 
+4. cp ${Your .proto path location} proto/ 
    to copy the proto file inside proto folder
-4. npm run proto
-5. inside js-proto-generator/src/proto you'll find the javascript generated files
+5. npm run proto
+6. inside js-proto-generator/src/proto you'll find the javascript generated files
