@@ -6,7 +6,7 @@
 ## Instructions to auto - generate JS code from .proto file
 
 1. git clone git@github.com:gkartalis/grpc-proto-js-generator.git
-2. cd js-proto-generator
+2. cd grpc-proto-js-generator && npm i
 3. cp ${Your .proto path location} proto/ 
    to copy the proto file inside proto folder
 4. npm run proto
